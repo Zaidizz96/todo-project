@@ -1,0 +1,58 @@
+img {
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+}
+
+header h1 {
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    border: 50px;
+    border-color: blue;
+}
+
+header {
+    background-color: #79E0EE;
+}
+
+nav a {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+table {
+    width: 400px;
+    margin: 30px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+th,
+td {
+    padding: 15px
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+
+strong {
+    position: absolute;
+    bottom: 10px;
+    right: 500px;
+}
+form fieldset {
+    position: absolute;
+    left: 750px;
+    bottom: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+main img {
+    height: 200px;
+}
