@@ -1,76 +1,125 @@
-img {
-    width: 150px;
-    height: 100px;
-    margin: 5px;
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+
+
+
+}
+
+
+/* header section */
+header img {
+  position: absolute;
+  top: 20px;
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 50%;
 }
 
 header h1 {
-    position: absolute;
-    left: 600px;
-    top: 20px;
-    border: 50px;
-    border-color: blue;
+  position: absolute;
+  left: 600px;
+  top: 30px;
+  border: 50px;
+  border-color: blue;
 }
+
 header {
-    background-color: #79E0EE;
+  display: flex;
+  background-color: #3498db;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  height: 80px;
 }
+
 nav a {
-    position: absolute;
-    right: 50px;
-    top: 20px;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* main section */
+main {
+  background: url(https://images.ctfassets.net/lzny33ho1g45/O6Ns6DttUzJym7rhGiD36/9affffb4ec5c115b8f742cd34b663cff/best_to_do_apps.jpg?w=1520&fm=jpg&q=30&fit=thumb&h=760);
+  background-size: cover;
+  background-blend-mode: difference;
+  display: flex;
+  justify-content: space-around;
+
+
+
+
+
+
+
 }
 
 table {
-    width: 400px;
-    margin: 30px ;
-    border-collapse: collapse;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  th, td {
-    padding:15px
-    
-  }
-  
-  th {
-    background-color: #4CAF50;
-    color: #fff;
-  }
+  width: 400px;
+  margin: 30px;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+thead {
+  text-align: left;
+  background-color: #87ceeb;
+  color: #fff;
   
   
-  tr:hover {
-    background-color: #d6c9e0;
-  }
-  input {
-    position: relative;
-  }
-  strong {
-    position: absolute;
-    bottom:10px ;
-    right: 500px;
-  }
-  footer a {
-   position: absolute;
-   right: 50px;
-   bottom: 15px;
-  }
-  footer a img{
-    width: 45px;
-    height: 40px;
-    
-  }
-  footer b {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    right:100px;
-    bottom: 15px
-    ;
-  }
-  main h3 {
-    width: 500px;
-    position: absolute;
-    left: 600px;
-    top: 200px;
-    font-family:monospace
-  }
+}
+
+
+th,
+td {
+  padding: 15px
+}
+
+
+
+tr:hover {
+  background-color: #d6c9e0;
+}
+.button-space {
+  display: flex;
+}
+
+.article-control {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: monospace;
+  color: #04180f
+}
+
+
+/* footer section */
+footer {
+  height: 100px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+footer a img {
+  width: 45px;
+  height: 40px;
+  
+}
+
+footer b {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  right: 100px;
+
+}
